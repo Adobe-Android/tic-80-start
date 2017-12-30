@@ -1,0 +1,14 @@
+// Set the executor of each language.
+  "code-runner.executorMap": {        
+  "javascript": "./tic /home/vm/.local/share/com.nesbox.tic/TIC-80/.local/$fileNameWithoutExt.tic -code-watch $fullFileName",
+  "lua": "./tic /home/vm/.local/share/com.nesbox.tic/TIC-80/.local/$fileNameWithoutExt.tic -code-watch $fullFileName",
+  "moonscript": "./tic /home/vm/.local/share/com.nesbox.tic/TIC-80/.local/$fileNameWithoutExt.tic -code-watch $fullFileName"
+  },
+  // Set the working directory.
+  "code-runner.cwd": "/home/vm/Downloads/tic_64bit_0.47.0/",
+  // Whether to save the current file before running.
+  "code-runner.saveFileBeforeRun": true,
+  // Whether to clear previous output before each run.
+  "code-runner.clearPreviousOutput": true,
+  // Whether to ignore selection to always run entire file.
+  "code-runner.ignoreSelection": true,
